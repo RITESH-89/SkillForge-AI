@@ -1,299 +1,1026 @@
-🎓 SkillForge AI
+# 🎓 SkillForge AI
 
-🤖 AI-Powered Competency & Personalized Learning
+### 🤖 AI-Powered Competency & Personalized Learning
 
-🚀 From competency gaps to personalized, evidence-grounded learning.
+> 🚀 **From competency gaps to personalized, evidence-grounded learning.**
 
+![Smart India Hackathon 2026](https://img.shields.io/badge/Smart%20India%20Hackathon-2026-blue?style=for-the-badge)
+![SIH26101](https://img.shields.io/badge/SIH26101-Smart%20Education-0A66C2?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-Frontend-61DAFB?style=flat-square&logo=react&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Deployment-2496ED?style=flat-square&logo=docker&logoColor=white)
+![AI](https://img.shields.io/badge/AI-NLP%20%7C%20LLM%20%7C%20RAG-8E44AD?style=flat-square)
 
+---
 
+# 🏆 Smart India Hackathon 2026
 
-🏆 Smart India Hackathon 2026
+| 📌 Detail | Information |
+|---|---|
+| 🆔 **Problem Statement** | **SIH26101** |
+| 🏛️ **Organization** | Ministry of Statistics and Programme Implementation (MoSPI) |
+| 🏢 **Department** | Data Informatics & Innovation Division (DIID) |
+| 💻 **Category** | Software |
+| 🎓 **Theme** | Smart Education |
+| 🚀 **Project** | **SkillForge AI** |
 
-📌 Detail                           Information
+---
 
-🆔 Problem Statement                SIH26101
+# 📜 Problem Statement
 
-🏛️ Organization                     Ministry of Statistics and
-Programme Implementation (MoSPI)
+> **Develop an AI enabled learning platform that identifies competency gaps, recommends personalized training through integration with the iGOT Karmayogi ecosystem, and is capable of generating Quizzes and Multiple choice questions (MCQs) from uploaded learning materials to strengthen capacity building in India's Official Statistical System.**
 
-🏢 Department                       Data Informatics & Innovation
-Division (DIID)
+---
 
-💻 Category                         Software
+# 🌟 What is SkillForge AI?
 
-🎓 Theme                            Smart Education
+**SkillForge AI** is an AI-powered competency and personalized learning platform designed to help learners and organizations:
 
-🎯 Overview
+- 🧩 Identify competency gaps
+- 🔎 Analyze skill requirements
+- 🎯 Generate personalized learning paths
+- 📚 Recommend relevant learning resources
+- 📝 Generate quizzes and MCQs from learning materials
+- 📌 Provide source-grounded assessment
+- 📊 Track learning and assessment progress
+- 🔄 Continuously improve competency profiles
 
-SkillForge AI is an AI-powered competency and personalized learning
-platform designed to identify competency gaps, recommend relevant
-learning, generate quizzes and MCQs from uploaded learning materials,
-and support continuous competency development.
+The platform follows a simple intelligent learning cycle:
 
+```text
 👤 Learner Profile
-        ↓
+       ↓
 🧩 Competency Mapping
+       ↓
+🔎 Skill-Gap Analysis
+       ↓
+🎯 Personalized Learning
+       ↓
+📝 Quiz / MCQ Assessment
+       ↓
+📊 Performance & Feedback
+       ↓
+🔄 Competency Update
+       ↓
+🚀 Continuous Upskilling
+```
+
+---
+
+# 🚨 Problem We Are Solving
+
+Traditional learning and training workflows can involve:
+
+- 🔍 Manual competency assessment
+- 📚 Generic training programs
+- 🧭 Difficulty finding relevant courses
+- 📝 Manual quiz and MCQ creation
+- 📊 Fragmented progress tracking
+- 🔄 Limited continuous feedback
+- 👨‍🏫 High trainer and administrator workload
+- 🧩 Weak connection between competency gaps and learning resources
+
+### 💡 Our Approach
+
+Instead of asking:
+
+> 📚 **"Which course should everyone take?"**
+
+SkillForge AI asks:
+
+> 🧠 **"Which competency does this learner need to develop, and what should they learn next?"**
+
+---
+
+# ✨ Key Features
+
+## 👤 1. AI Competency Profiling
+
+SkillForge AI can process:
+
+- 👤 Learner profile
+- 🧑‍💼 Role
+- 🏢 Department
+- 🧠 Existing skills
+- 📚 Training history
+- 📝 Assessment performance
+
+and create a structured competency profile.
+
+---
+
+## 🔎 2. AI-Based Skill-Gap Analysis
+
+The system compares:
+
+```text
+Current Competencies
+        +
+Required Competencies
         ↓
 🔎 Skill-Gap Analysis
-        ↓
-🎯 Personalized Learning
-        ↓
-📝 Quiz / MCQ Generation
-        ↓
-📊 Assessment & Feedback
-        ↓
-🔄 Competency Update
-        ↓
-🚀 Continuous Upskilling
+```
 
-✨ Key Features
+This helps identify competencies where additional learning may be required.
 
-👤 AI competency profiling
+---
 
-🔎 AI-based skill-gap analysis
+## 🎯 3. Personalized Learning Paths
 
-🎯 Personalized learning paths
+Recommendations can consider:
 
-📚 Semantic learning-resource matching
+- 👤 Learner profile
+- 🧩 Competency gaps
+- 🏢 Role
+- 📚 Learning history
+- 📊 Assessment performance
+- 🔎 Semantic relevance
 
-📝 AI quiz and MCQ generation
+The result is a more targeted learning journey.
 
-📌 Source-grounded assessment
+---
 
-📊 Learner progress tracking
+## 📝 4. AI Quiz & MCQ Generation
 
-🏢 Administrator analytics
+Learning material can be processed through:
 
-🔄 Continuous feedback loop
-
-🔗 iGOT Karmayogi API-ready integration, subject to authorization
-
-🧠 AI Pipeline
-
-📄 Learning Material
-      ↓
-🧹 Cleaning & Parsing
-      ↓
-🔎 Topic / Skill Extraction
-      ↓
-🧩 Competency Mapping
-      ↓
-📚 Embeddings + Semantic Search
-      ↓
-🤖 LLM / RAG
-      ↓
-📝 Quiz / MCQ + Explanation
-      ↓
+```text
+📄 Upload Learning Material
+          ↓
+🧹 Clean & Process
+          ↓
+🔎 Extract Topics & Skills
+          ↓
+🧠 Understand Content
+          ↓
+📝 Generate Quiz / MCQs
+          ↓
+✅ Answers
+          ↓
+💡 Explanations
+          ↓
 📌 Source Traceability
+```
 
-🏗️ Architecture
+---
 
+## 📌 5. Evidence-Grounded Learning
+
+SkillForge AI can use **Semantic Search + RAG** to retrieve relevant content before generating questions or explanations.
+
+```text
+📚 Learning Material
+        ↓
+✂️ Chunking
+        ↓
+🧠 Embeddings
+        ↓
+🔎 Semantic Retrieval
+        ↓
+📖 Relevant Context
+        ↓
+🤖 LLM
+        ↓
+📝 Question + Answer + Explanation
+        ↓
+📌 Source Reference
+```
+
+> ⚠️ RAG and source grounding can reduce unsupported generation, but they do not guarantee zero hallucinations.
+
+---
+
+## 🧠 6. Adaptive Assessment
+
+Assessment results can be used to identify:
+
+- ✅ Strong areas
+- ⚠️ Weak areas
+- 📈 Progress
+- 🎯 Competencies requiring further learning
+
+```text
+📚 Learn
+   ↓
+📝 Practice
+   ↓
+📊 Assess
+   ↓
+💡 Feedback
+   ↓
+🔄 Improve
+   ↓
+📝 Reassess
+```
+
+---
+
+## 📊 7. Learner Dashboard
+
+The learner dashboard can provide:
+
+- 🧩 Competency Profile
+- 🔎 Skill Gaps
+- 🎯 Recommended Learning
+- 📚 Learning Progress
+- 📝 Quizzes
+- 📊 Assessment Results
+- 🚀 Next Learning Recommendations
+
+---
+
+## 🏢 8. Administrator Dashboard
+
+Administrators can view:
+
+- 👥 Learner competency overview
+- 🔎 Common skill gaps
+- 📚 Training progress
+- 📝 Assessment performance
+- 📊 Learning analytics
+- 🎯 Capacity-building requirements
+
+---
+
+# 🔗 iGOT Karmayogi Integration
+
+SkillForge AI is designed with integration into the **iGOT Karmayogi ecosystem** in mind.
+
+The platform can use authorized course/catalogue information to improve personalized learning recommendations.
+
+### 🔐 Integration Status
+
+> **iGOT Karmayogi integration is API-ready and subject to authorization/access.**
+
+During prototype development, mock or sample catalogue data can be used if live API access is not available.
+
+🌐 [iGOT Karmayogi](https://www.igotkarmayogi.gov.in/)
+
+🏛️ [Capacity Building Commission](https://www.cbc.gov.in/)
+
+🧩 [Karmayogi Competency Model](https://cbc.gov.in/karmayogi-competency-model-kcm)
+
+---
+
+# 🧩 Competency Domains
+
+## 📊 Statistical Competencies
+
+- 📋 Survey Design
+- 🎲 Sampling
+- 📈 National Accounts
+- 💰 Price Statistics
+- 👥 Labour Statistics
+- 🌾 Agricultural Statistics
+- 🏭 Industrial Statistics
+- 🌍 SDG Indicators
+- 🗂️ Metadata Standards
+- ✅ Data Quality Frameworks
+
+## 💻 Technical Competencies
+
+- 🐍 Python
+- 📊 R
+- 🗄️ SQL
+- 📈 Stata
+- 📊 SPSS
+- 📊 SAS
+- 🗺️ GIS
+- 📊 Data Visualization
+- 🤖 AI / ML
+- ☁️ Cloud
+- 🔗 APIs
+- 🌐 Open Data
+
+## 🏛️ Digital Governance
+
+- 🔐 Cybersecurity
+- 🛡️ Data Privacy
+- ✍️ Digital Signatures
+- ☁️ Government Cloud
+- 🌐 Digital Public Infrastructure
+
+## 👥 Behavioural & Managerial
+
+- 👑 Leadership
+- 🗣️ Communication
+- 📋 Project Management
+- ⚖️ Ethics
+- 🧠 Decision Making
+- 🔄 Change Management
+
+---
+
+# 🏗️ System Architecture
+
+```mermaid
 flowchart TD
+
     A[👤 Learner Profile] --> E[🧠 SkillForge AI Engine]
     B[📚 Training History] --> E
     C[📄 Learning Materials] --> F[🧹 Content Processing]
     D[🧩 Competency Framework] --> E
-    F --> G[🔎 Semantic Retrieval / RAG]
-    G --> E
-    E --> H[🧩 Competency Profiling]
-    E --> I[🔎 Skill-Gap Analysis]
-    I --> J[🎯 Personalized Recommendations]
-    J --> K[🛣️ Learning Path]
-    F --> L[📝 Quiz & MCQ Generation]
-    L --> M[📌 Grounded Assessment]
-    K --> N[👤 Learner Dashboard]
-    M --> N
-    N --> O[📊 Progress & Feedback]
-    O --> H
-    N --> P[🏢 Administrator Dashboard]
+    G[📚 Course Catalogue] --> E
 
-🛠️ Tech Stack
+    F --> H[🔎 Semantic Retrieval / RAG]
+    H --> E
 
-Layer              Technology
+    E --> I[🧩 Competency Profiling]
+    E --> J[🔎 Skill-Gap Analysis]
+    J --> K[🎯 Personalized Recommendations]
+    K --> L[🛣️ Learning Path]
 
-🐍 Backend         Python
-⚡ API             FastAPI
-🧠 NLP             Hugging Face Transformers
-🤖 LLM             OpenAI-compatible / local LLM
-🔎 Embeddings      Sentence Transformers
-📚 RAG             Retrieval-Augmented Generation
-🗄️ Database        PostgreSQL
-🔍 Vector Search   FAISS / pgvector
-⚛️ Frontend        React
-🐳 Deployment      Docker
+    F --> M[📝 Quiz & MCQ Generation]
+    M --> N[📌 Source-Grounded Assessment]
 
-🌟 Why SkillForge AI?
+    L --> O[👤 Learner Dashboard]
+    N --> O
 
-🧩 Competency-First
+    O --> P[📊 Progress & Feedback]
+    P --> I
 
-Focuses on what competency needs improvement, not only which course
-to recommend.
+    O --> Q[🏢 Administrator Dashboard]
+```
 
-🎯 Personalized
+---
 
-Recommendations can consider role, learner profile, competency gaps,
-learning history and performance.
+# 🔬 AI Intelligence Layer
 
-📝 Assessment Automation
+### 🧠 NLP
 
-Generates quizzes and MCQs from uploaded learning materials.
+Used for:
 
-📌 Evidence-Grounded
+- 📄 Text extraction
+- 🔎 Topic identification
+- 🧩 Skill extraction
+- 🧠 Competency mapping
+- 📚 Content understanding
 
-Uses retrieval and source context to make generated learning content
-more traceable.
+### 🤖 LLM
 
-🔄 Continuous Learning
+Used for:
 
-Connects learning, assessment, feedback and competency updates in one
-loop.
+- 📝 Question generation
+- 💡 Explanations
+- 🎯 Learning assistance
+- 📚 Content understanding
+- 🔎 Recommendation reasoning
 
-📊 Impacts
+### 🔎 Semantic Search
 
-🟢 Learning Impact
+Used to find learning resources that are semantically relevant to learner needs.
 
-🔎 Better visibility into competency gaps
+### 📚 RAG
 
-🎯 More targeted learning
+Retrieval-Augmented Generation can provide relevant source context before generating AI content.
 
-📚 Continuous upskilling
+### 🎯 Recommendation Engine
 
-🧠 Competency-focused development
+Uses learner and competency information to generate targeted learning recommendations.
 
-🔵 Operational Impact
+---
 
-⏱️ Reduced manual assessment effort
+# 🔄 How SkillForge AI Works
 
-📝 Reduced quiz-authoring workload
+## 🟠 Phase 1: Content & Profile Input
 
-🔍 Faster discovery of relevant resources
+```text
+👤 Learner Profile
+📚 Training History
+📄 Learning Materials
+🧩 Competency Framework
+        ↓
+🧹 Content Processing
+        ↓
+🔎 Topic / Skill Extraction
+        ↓
+🧩 Competency Mapping
+```
 
-🏢 Unified learning workflow
+### 📤 Output
 
-🟠 Data & Decision Impact
+📊 Structured competency and learning profile.
 
-📊 Actionable competency insights
+---
 
-📈 Progress visibility
+## 🔵 Phase 2: Competency Intelligence
 
-🧠 Evidence-based training decisions
+```text
+Current Competencies
+        +
+Required Competencies
+        ↓
+🔎 Skill-Gap Analysis
+        ↓
+🔍 Semantic Matching
+        ↓
+🎯 Personalized Recommendation
+        ↓
+🛣️ Learning Path
+```
 
-🔄 Continuous improvement
+### 📤 Output
 
-🔗 iGOT Karmayogi
+🎯 Personalized learning plan and targeted resources.
 
-SkillForge AI is designed for integration with the iGOT Karmayogi
-ecosystem where authorized access is available.
+---
 
-🔐 Important: Live API integration is subject to authorization and
-access. Prototype development can use mock or sample catalogue data.
+## 🟢 Phase 3: Learning & Improvement
 
-🌐 iGOT Karmayogi
+```text
+📚 Learn
+  ↓
+📝 Practice
+  ↓
+📊 Evaluate
+  ↓
+💡 Feedback
+  ↓
+🔄 Update Competency Profile
+  ↓
+🎯 Recommend Next Learning
+```
 
-🧩 Karmayogi Competency
-Model
+### 📤 Output
 
-🏛️ Capacity Building Commission
+🚀 Continuous competency development.
 
-⚠️ Challenges & Mitigation
+---
 
-🚨 Challenge               🛡️ Mitigation
+# 🛠️ Technology Stack
 
-Diverse learning content   🧹 Parsing, cleaning and chunking
-Competency extraction      🧩 Competency mapping and validation
-Low-quality questions      📝 Structured prompts and validation
-Hallucinations             📚 RAG and source grounding
-Recommendation quality     🎯 Semantic matching + feedback
-iGOT access                🔗 API-ready integration
-User trust                 💡 Explainable recommendations
+| Layer | Technology |
+|---|---|
+| 🐍 Backend | Python |
+| ⚡ API | FastAPI |
+| 🧠 NLP | Hugging Face Transformers |
+| 🤖 LLM | OpenAI-compatible / Local LLM |
+| 🔎 Embeddings | Sentence Transformers |
+| 📚 RAG | Retrieval-Augmented Generation |
+| 🗄️ Database | PostgreSQL |
+| 🔍 Vector Search | FAISS / pgvector |
+| ⚛️ Frontend | React |
+| 🐳 Deployment | Docker |
 
-🚀 Roadmap
+### ⚙️ AI Stack
 
-🟡 MVP
-
-👤 Learner profile
-
-📄 Material upload
-
-🧩 Competency profiling
-
-🔎 Skill-gap analysis
-
-📝 Quiz/MCQ generation
-
-🔵 Prototype
-
+```text
+🧠 NLP
+   +
+🤖 LLM
+   +
+🔎 Embeddings
+   +
 📚 RAG
+   +
+🎯 Recommendation
+   +
+🧩 Competency Mapping
+   +
+📝 Automated Assessment
+   +
+📊 Analytics
+```
 
-🔎 Semantic search
+---
 
-🎯 Personalized recommendations
+# 📊 Impacts & Benefits
 
-📊 Dashboards
+## 🟢 Learning Impact
 
-📈 Progress analytics
+- 🔎 Better visibility into competency gaps
+- 🎯 Targeted learning recommendations
+- 📚 Continuous upskilling
+- 🧠 Competency-focused development
 
-🟢 Future
+## 🔵 Operational Impact
 
-🔗 Authorized iGOT integration
+- ⏱️ Reduced manual competency-assessment effort
+- 📝 Reduced quiz-authoring workload
+- 🔍 Faster discovery of relevant resources
+- 🏢 Unified learning workflow
 
-🌐 Multilingual learning
+## 🟠 Data & Decision Impact
 
-🎙️ Voice assistant
+- 📊 Actionable competency insights
+- 📈 Learning progress visibility
+- 🧠 Evidence-based training decisions
+- 🔄 Continuous competency improvement
 
-🖼️ OCR
+---
 
-🎥 Video transcription
+# ⚖️ Traditional Approach vs SkillForge AI
 
-📱 Mobile app
+| Feature | 🧑‍🏫 Traditional / Manual | 🤖 SkillForge AI |
+|---|---|---|
+| 🔎 Competency-gap identification | Manual / Limited | 🟢 AI-assisted |
+| 🎯 Role-based recommendations | Often manual | 🟢 Personalized |
+| 🛣️ Learning path | Generic / Trainer-driven | 🟢 Gap-aware |
+| 📝 Quiz generation | Manual | 🟢 AI-assisted |
+| 📌 Source-grounded questions | Separate effort | 🟢 Designed into workflow |
+| 📊 Progress tracking | Basic / Fragmented | 🟢 Unified |
+| 🏢 Administrator analytics | Limited / Separate | 🟢 Centralized |
+| 🧩 Competency alignment | Manual mapping may be required | 🟢 Competency-first |
+| 🔄 Continuous feedback | System-dependent | 🟢 Built into learning loop |
 
-🧠 Advanced adaptive learning
+---
 
-👥 Team
+# 🌟 What Makes SkillForge AI Different?
 
-👨‍💻 RITESH PAITHANKAR
+### 🧩 Competency-First
 
-👨‍💻 SUMIT RATHOD
+We focus on:
 
-👨‍💻 NIRAJ KHARAT
+> **What competency needs improvement?**
 
-👨‍💻 GANESH TAUR
+rather than simply:
 
-👩‍💻 RUTUJA PAWAR
+> **Which course should be recommended?**
 
-🆔 Team ID: To be updated
+### 🎯 Personalized
 
-🔐 Responsible AI & Security
+Learning recommendations can consider:
 
-🔒 Minimize personal data collection
+- 👤 Profile
+- 🏢 Role
+- 🧩 Competency gaps
+- 📚 Learning history
+- 📊 Assessment performance
 
-🛡️ Use authentication and authorization
+### 📝 Assessment Automation
 
-🔑 Never commit API keys or secrets
+Trainers can generate quizzes and MCQs from uploaded learning content.
 
-📌 Provide source context where possible
+### 📌 Evidence-Grounded
 
-👨‍🏫 Keep human validation for high-stakes assessment
+Relevant source material can be retrieved before generating questions and explanations.
 
-⚠️ Do not claim 100% accuracy or zero hallucination
+### 🔄 Continuous Learning Loop
 
-📜 Disclaimer
+```text
+Identify
+   ↓
+Learn
+   ↓
+Practice
+   ↓
+Assess
+   ↓
+Feedback
+   ↓
+Improve
+   ↓
+Repeat 🔄
+```
 
-SkillForge AI is a Smart India Hackathon 2026 prototype. It is
-designed to assist competency analysis, learning recommendations and
-assessment generation. It does not replace trainers, administrators or
-official decision-makers.
+---
 
-🌱 Vision
+# ⚠️ Technical Challenges & Mitigation
 
-🧠 Identify the gap.
-🎯 Find the right learning.
-📝 Practice with purpose.
-📊 Measure progress.
-🚀 Build better competencies.
+| 🚨 Challenge | 🛡️ Mitigation |
+|---|---|
+| Diverse learning materials | 🧹 Parsing + preprocessing + chunking |
+| Competency extraction | 🧩 Mapping + validation |
+| Low-quality AI questions | 📝 Structured generation + validation |
+| Unsupported AI output | 📚 RAG + source grounding |
+| Recommendation quality | 🎯 Semantic matching + feedback |
+| iGOT API access | 🔗 API-ready architecture |
+| User trust | 💡 Explainable recommendations |
 
-⭐ SkillForge AI
+---
 
-🎓 Learn Smarter • 🧩 Build Competencies • 🚀 Strengthen Capacity
+# 👥 Business & User Challenges
 
-🇮🇳 Built for Smart India Hackathon 2026
+### 🚨 Risks
+
+- 🤔 Users may hesitate to trust AI recommendations
+- 📱 Different levels of digital literacy
+- 📝 Concerns about generated question quality
+- 🔄 Adoption challenges
+- 🔐 Privacy concerns
+
+### 🛡️ Mitigation
+
+- 💡 Explain recommendations
+- 📌 Show source context where possible
+- 🖥️ Build an intuitive interface
+- 👨‍🏫 Human validation for high-stakes assessment
+- 📊 Collect user feedback
+- 🚀 Begin with controlled pilot deployment
+
+---
+
+# 🔐 Privacy & Security
+
+SkillForge AI follows responsible design principles:
+
+- 🔒 Minimize personal-data collection
+- 👤 Role-based access control
+- 🔑 Secure authentication
+- 🛡️ Authorization
+- 🌐 Secure API communication
+- 🗄️ Secure database configuration
+- 📌 Appropriate audit logging
+- 🔐 Protect sensitive learner information
+
+### ❌ Never commit
+
+```text
+❌ API Keys
+❌ Passwords
+❌ Database Credentials
+❌ Private Tokens
+❌ Production Secrets
+❌ Personal Learner Data
+```
+
+---
+
+# 🚀 Implementation Roadmap
+
+## 🟡 Phase 1 — MVP
+
+- 👤 Learner profile
+- 📄 Learning material upload
+- 🧩 Competency profiling
+- 🔎 Skill-gap analysis
+- 📝 Quiz/MCQ generation
+
+## 🔵 Phase 2 — Intelligent Prototype
+
+- 🔎 Semantic search
+- 📚 RAG
+- 🎯 Personalized recommendations
+- 📊 Learner dashboard
+- 🏢 Administrator dashboard
+- 📈 Progress tracking
+
+## 🟢 Phase 3 — Integration
+
+- 🔗 Authorized iGOT integration
+- 🧩 Advanced competency mapping
+- 🔄 Adaptive learning
+- 📊 Advanced analytics
+
+## 🟣 Phase 4 — Future
+
+- 🌐 Multilingual learning
+- 🎙️ Voice-enabled learning
+- 🖼️ OCR
+- 🎥 Video transcript processing
+- 📱 Mobile application
+- 🧠 Advanced adaptive learning
+- 🏢 Organization-wide competency analytics
+
+---
+
+# 📂 Repository Structure
+
+```text
+SkillForge-AI/
+│
+├── 📁 backend/
+│   ├── 📁 app/
+│   ├── 📁 api/
+│   ├── 📁 models/
+│   ├── 📁 services/
+│   ├── 📁 rag/
+│   ├── 📁 recommendation/
+│   ├── 📁 assessment/
+│   └── 🐍 main.py
+│
+├── 📁 frontend/
+│   ├── 📁 src/
+│   ├── 📁 components/
+│   ├── 📁 pages/
+│   └── 📁 services/
+│
+├── 📁 data/
+│   └── 📁 sample/
+│
+├── 📁 docs/
+│   ├── 📁 architecture/
+│   ├── 📁 research/
+│   └── 📁 screenshots/
+│
+├── 📁 tests/
+│
+├── 📁 docker/
+│
+├── 📄 requirements.txt
+├── 📄 README.md
+└── 📄 LICENSE
+```
+
+> 📌 Update this structure to match the actual implementation.
+
+---
+
+# 🔌 Proposed API
+
+> ⚠️ These are proposed endpoints unless they already exist in the implementation.
+
+| Method | Endpoint | Purpose |
+|---|---|---|
+| `POST` | `/api/profile` | 👤 Learner profile |
+| `POST` | `/api/materials/upload` | 📄 Upload material |
+| `POST` | `/api/competency/analyze` | 🧩 Competency analysis |
+| `POST` | `/api/skills/gap-analysis` | 🔎 Skill-gap analysis |
+| `POST` | `/api/recommendations` | 🎯 Recommendations |
+| `POST` | `/api/quiz/generate` | 📝 Generate quiz/MCQs |
+| `GET` | `/api/progress` | 📊 Learner progress |
+| `GET` | `/api/dashboard` | 📈 Dashboard data |
+
+---
+
+# 💻 Installation
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone <YOUR_GITHUB_REPOSITORY_URL>
+cd SkillForge-AI
+```
+
+## 2️⃣ Create Virtual Environment
+
+### 🪟 Windows
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+### 🐧 Linux / macOS
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+
+## 3️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## 4️⃣ Configure Environment
+
+Create a `.env` file:
+
+```env
+OPENAI_API_KEY=
+DATABASE_URL=
+MODEL_NAME=
+VECTOR_DB_URL=
+```
+
+🔐 Never upload your `.env` file to GitHub.
+
+## 5️⃣ Run Backend
+
+```bash
+uvicorn app.main:app --reload
+```
+
+## 6️⃣ Run Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+> ⚠️ Update commands according to the actual project implementation.
+
+---
+
+# 🐳 Docker Deployment
+
+Conceptual deployment:
+
+```text
+                 🌐 User
+                   │
+                   ▼
+            ⚛️ React Frontend
+                   │
+                   ▼
+            ⚡ FastAPI Backend
+              │          │
+              ▼          ▼
+       🗄️ PostgreSQL   🔎 Vector Store
+              │          │
+              └────┬─────┘
+                   ▼
+              🧠 AI Engine
+              │     │     │
+              ▼     ▼     ▼
+             NLP   LLM  RAG
+```
+
+---
+
+# 🧪 Testing
+
+SkillForge AI should be evaluated at multiple levels.
+
+### 🧠 AI Evaluation
+
+- 🧩 Competency mapping quality
+- 🔎 Skill-gap identification
+- 🎯 Recommendation relevance
+- 📝 Question quality
+- ✅ Answer correctness
+- 📌 Source grounding
+
+### 💻 Software Testing
+
+- 🧪 Unit tests
+- 🔗 Integration tests
+- 🌐 API tests
+- 🖥️ Frontend tests
+- 🗄️ Database tests
+
+### 👥 User Evaluation
+
+- 🖥️ Usability
+- 🎯 Recommendation usefulness
+- 📝 Question relevance
+- 📊 Dashboard clarity
+- 💬 User feedback
+
+> 📌 Numerical accuracy or performance results should only be published after actual testing.
+
+---
+
+# 📸 Screenshots
+
+Add screenshots as the project develops.
+
+```text
+🖥️ Learner Dashboard
+        ↓
+🧩 Competency Profile
+        ↓
+🔎 Skill Gaps
+        ↓
+🎯 Recommendations
+        ↓
+📝 Quiz Generator
+        ↓
+📊 Progress
+```
+
+---
+
+# 📚 Research Foundation
+
+SkillForge AI is based on several technology and learning concepts:
+
+- 🏛️ iGOT Karmayogi and competency-based capacity building
+- 🧩 Karmayogi Competency Model
+- 🧠 Natural Language Processing
+- 🤖 Large Language Models
+- 📝 Automated Question Generation
+- 🔎 Semantic Search
+- 📚 Retrieval-Augmented Generation
+- 🎯 Recommendation Systems
+- 🔄 Adaptive Learning
+- 📊 Learning Analytics
+
+### 🔗 References
+
+- 🏆 [Smart India Hackathon](https://www.sih.gov.in/)
+- 🏛️ [iGOT Karmayogi](https://www.igotkarmayogi.gov.in/)
+- 🧩 [Capacity Building Commission](https://www.cbc.gov.in/)
+- 📚 [Karmayogi Competency Model](https://cbc.gov.in/karmayogi-competency-model-kcm)
+
+---
+
+# 👥 Team SkillForge AI
+
+| 👤 Member | Role |
+|---|---|
+| 👨‍💻 **RITESH PAITHANKAR** | Team Member |
+| 👨‍💻 **SUMIT RATHOD** | Team Member |
+| 👨‍💻 **NIRAJ KHARAT** | Team Member |
+| 👨‍💻 **GANESH TAUR** | Team Member |
+| 👩‍💻 **RUTUJA PAWAR** | Team Member |
+
+🆔 **Team ID:** To be updated
+
+🏫 **Institute:** To be updated
+
+---
+
+# 🤝 Contribution
+
+```text
+🍴 Fork
+ ↓
+🌿 Create Branch
+ ↓
+💻 Make Changes
+ ↓
+🧪 Test
+ ↓
+📤 Pull Request
+ ↓
+👀 Review
+ ↓
+✅ Merge
+```
+
+Contributions, suggestions and improvements are welcome.
+
+---
+
+# 🐞 Issues & Feedback
+
+Found a bug? 🐞
+
+Have an idea? 💡
+
+Want a new feature? 🚀
+
+Open a GitHub Issue with:
+
+```text
+📌 Title
+📝 Description
+🔁 Steps to Reproduce
+💻 Environment
+📸 Screenshots / Logs
+🎯 Expected Behaviour
+```
+
+---
+
+# ⚠️ Responsible AI
+
+SkillForge AI is designed as an **AI-assisted learning and competency-support platform**.
+
+It does not replace:
+
+- 👨‍🏫 Trainers
+- 🏢 Administrators
+- 🧑‍💼 Domain experts
+- 🏛️ Official decision-makers
+
+AI-generated recommendations and assessment content should be appropriately reviewed, especially for high-stakes training.
+
+---
+
+# 📜 Disclaimer
+
+> 🇮🇳 **SkillForge AI is a prototype developed for Smart India Hackathon 2026.**
+
+The platform is intended to assist with:
+
+- 🧩 Competency analysis
+- 🎯 Learning recommendations
+- 📝 Assessment generation
+- 📊 Learning analytics
+- 🔄 Continuous upskilling
+
+It should not be interpreted as a replacement for official training policies, trainers, administrators or human decision-making.
+
+---
+
+# 🌱 Our Vision
+
+> 🧠 **Identify the Gap.**  
+> 🎯 **Find the Right Learning.**  
+> 📝 **Practice with Purpose.**  
+> 📊 **Measure Progress.**  
+> 🚀 **Build Better Competencies.**
+
+---
+
+# ⭐ SkillForge AI
+
+### 🎓 Learn Smarter • 🧩 Build Competencies • 🚀 Strengthen Capacity
+
+🇮🇳 **Built for Smart India Hackathon 2026**
+
+---
+
+<p align="center">
+
+## 🤖 SkillForge AI
+
+### AI-Powered Competency & Personalized Learning
+
+🧠 NLP & LLM  
+🔎 Semantic Search  
+🧩 Competency Mapping  
+🎯 Personalized Learning  
+📝 AI Assessment  
+📊 Learning Analytics  
+
+### 🚀 From competency gaps to personalized, evidence-grounded learning.
+
+</p>
